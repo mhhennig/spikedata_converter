@@ -1,0 +1,8 @@
+<?xml version="1.0" ?><Data>
+	<paths>
+		<path key="InputFile" value="/data/MEA/LightStim/P124_04_10_16"/>
+		<path key="OutputFile" value="/data/MEA/LightStim/P124_04_10_16/conv"/>
+		<path key="RootStimuliFile" value="/data/MEA/LightStim/P124_04_10_16/Basic_Stimuli"/>
+		<path key="PathToBeReplace" value="/data/MEA/LightStim/P124_04_10_16"/>
+	</paths>
+</Data>
