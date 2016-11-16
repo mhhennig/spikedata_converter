@@ -95,6 +95,7 @@ def fileList(path, ext):
                 # if len(dirs)>0 : print dirs
 
         if len(files) > 0:
+            files = sorted(files)
             for f in files:
                 if f[len(f) - len(ext):len(f)] == ext:
                     stringa = path + separator + f
@@ -115,7 +116,6 @@ def fileListFind(path, ext):
     for path, dirs, files in os.walk(path):
                 # print files
                 # if len(dirs)>0 : print dirs
-
         if len(files) > 0:
             for f in files:
                 if f.find(ext) != -1:
