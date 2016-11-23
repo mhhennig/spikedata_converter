@@ -509,7 +509,8 @@ class VisualStimuliData():
                 ind = 0
                 opath = path
                 while not os.path.exists(path) and ind>-1:
-                    ind = opath.rfind('\\',0,ind-1)
+                    #ind = opath.rfind('\\',0,ind-1)
+                    ind = opath.find('\\',ind+1)
                     #print(ind, self.RootStimuliPath+os.sep+path[ind+1:])
                     path = self.RootStimuliPath+os.sep+opath[ind+1:]+os.sep
                     path = path.replace('\\',os.sep)
